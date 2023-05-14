@@ -1,0 +1,84 @@
+body{
+    color: aliceblue;
+    min-width: 340px;
+    background-color: rgba(17, 17, 18, 0.975);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    margin-top: 60px;
+}
+
+.menu_Button{
+    display: none;
+}
+.line_1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 8px;
+    background-color: aliceblue;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 200;
+}
+.line_1_Eles{
+    font-size: 30px;
+    color: black;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.menus a{
+    color: rgb(172, 148, 110);
+    text-decoration: none;    
+    font-weight: 600;     
+}
+.menus{
+    padding: 15px 7px;
+    border-radius: 10px;
+    
+}
+.menus:hover{
+    background-color: rgb(227, 227, 227);
+    transition: 0.2s ;
+}
+@media screen and (max-width: 625px) {
+    .line_1{
+        display: none;
+    }
+    body{
+        margin-top: 30px;      
+    }
+    .menu_Button{
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        background-color: rgb(10, 10, 10);
+        border-radius: 23px;
+        position: fixed;
+        left: 8px;
+        top: 20px;
+        z-index: 100;
+    }
+    .menus:hover{
+    background-color: rgba(34, 33, 33, 0.512);
+    }
+    .SideDrop{
+        width: 100px;
+        background-color: rgba(0, 0, 0, 0.476);
+        padding-left: 10px;
+        border-radius: 8px;
+        padding: 10px;
+        position: absolute;
+        top: 60px;
+        left: 5px;
+        filter: none;
+    }
+    .menu_Button img{
+        width: 55%;
+        position: relative;
+        top: 12px;
+        left: 11px;
+    }
+}
