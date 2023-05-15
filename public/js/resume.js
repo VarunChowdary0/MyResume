@@ -31,6 +31,8 @@ const dropDown=()=>{
   left.style.filter='blur(4px)';
   let right=document.querySelector(".right");
   right.style.filter='blur(4px)';
+  let content=document.querySelector(".content");
+  content.style.filter='blur(4px)';
 }
 
 const UNdrop=()=>{
@@ -39,4 +41,6 @@ const UNdrop=()=>{
     left.style.filter='blur(0px)';
     let right=document.querySelector(".right");
     right.style.filter='blur(0px)';
+    let content=document.querySelector(".content");
+    content.style.filter='blur(0px)';
 }
