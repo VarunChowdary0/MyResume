@@ -10,5 +10,8 @@
     "resume"
   ],
   "author": "sai varun chowdary poludasu",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^5.5.0"
+  }
 }
