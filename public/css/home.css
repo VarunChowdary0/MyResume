@@ -67,6 +67,7 @@ body{
     padding: 50px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 .right img{
     width: 100%;
