@@ -164,6 +164,34 @@ a{
 .hr_5{
     width: 85%;
 }
+.git{
+    margin-left: 70px;
+}
+.socialMedia p{
+    margin-left: 7px;
+    margin-top: -5px;
+}
+.height_1{
+    height: 250px;
+}
+.UnSub_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.prj_links{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.prj_links a{
+    color: rgb(26, 169, 201);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 @keyframes bounce1 {
     0%{
         transform: translateY(0);
