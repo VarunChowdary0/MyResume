@@ -1,3 +1,3 @@
 npm install
 npm install express
-node app
+node index
