@@ -93,30 +93,7 @@ a{
     text-decoration: none;
     font-weight: 600;
 }
-.socialMedia{
-    font-size: 14px;
-    padding: 10px 5px;
-    width: 70px;
-    border-radius: 10px;
-    padding-left: 10px;
-    transition: background-color 0.4s;
-}
-.socialMedia:hover{
-    background-color: rgb(18, 18, 18);
-}
-.socialMedia img{
-    width: 80%;
-}
-.bottom{
-    position: absolute;
-    bottom: -220px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    left: 0;
-    right: 50%;
-    align-items: center;
-}
+
 @media screen and (max-width: 1005px) {
     .temp_1{
         font-size: 45px;
@@ -145,6 +122,20 @@ a{
     }
     .bottom{
         margin-left: 170px;
+    }
+    .left{
+        padding: 0;
+        padding-left: 50px;
+    }
+    .temp_2{
+        padding: 0;
+    }
+    .MyText{
+        margin: 0;
+        margin-top: 10px;
+    }
+    .MyText p{
+        min-width: 200px;
     }
 }
 @media screen and (max-width: 625px) {
