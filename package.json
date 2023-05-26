@@ -12,9 +12,10 @@
   "author": "sai varun chowdary poludasu",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^3.1.9",
     "express": "^4.18.2",
     "mongodb": "^5.5.0",
     "mongoos": "^0.0.1-security",
-    "mongoose": "^7.1.1"
+    "mongoose": "^7.2.1"
   }
 }
