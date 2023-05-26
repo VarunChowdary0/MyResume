@@ -1,4 +1,5 @@
 const express=require('express')
+
 const app=express();
 
 app.use(express.static('public'))
@@ -26,6 +27,6 @@ app.get('/about',(req,res)=>{
  app.get('/myProjects',(req,res)=>{
     res.render('myProjects')
 })
-app.listen(1000,()=>{
+app.listen(1500,()=>{
     console.log("Server running on port 1000............")
 })

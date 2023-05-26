@@ -104,6 +104,66 @@ body{
     height: 320px;
     animation: bounce10 0.5s 3 ease-in-out;
 }
+.bottom{
+    position: absolute;
+    bottom: -220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    left: 0;
+    right: 50%;
+    align-items: center;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+}
+.socialMedia{
+    font-size: 14px;
+    padding: 10px 5px;
+    width: 70px;
+    border-radius: 10px;
+    padding-left: 10px;
+    transition: background-color 0.4s;
+}
+.socialMedia:hover{
+    background-color: rgb(18, 18, 18);
+}
+.socialMedia img{
+    width: 80%;
+}
+.Sub_1{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 400px;
+}
+.Sub_2{
+   margin-top: 370px;
+}
+.Sub_3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.call{
+    margin-left: 50px;
+    position: relative;
+}
+.call p{
+    width: 100px;
+    position: absolute;
+    left: 0px;
+}
+.roots_1{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.hr_5{
+    width: 85%;
+}
 @keyframes bounce1 {
     0%{
         transform: translateY(0);
