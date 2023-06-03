@@ -139,6 +139,10 @@ a{
     gap: 40px;
     height: 400px;
 }
+.Sub_1 a .gitName{
+    text-align: center;
+    color: rgb(117, 196, 170);
+}
 .Sub_2{
    margin-top: 370px;
 }
